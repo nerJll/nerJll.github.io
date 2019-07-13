@@ -1,11 +1,126 @@
-<html>
+<!DOCTYPE html>
+<html lang="ch">
 <head>
-<title>ner-homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <title>ner-个人主页</title>
+<style>
+    body{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .page.title{
+        color: #141414;
+        font-size: 27px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .page.navag{
+        font-size: 20px;
+        color: #0A0A0A;
+        padding-left: 10px;
+    }
+    .page.content{
+        color: #1C1C1C;
+        padding-left: 25px;
+        padding-bottom: 20px;
+    }
+    .page.detail{
+        padding-bottom: 5px;
+    }
+    .page.detail2{
+        padding-bottom: 15px;
+    }
+</style>
 </head>
-
 <body>
-<p>
-	<h1>hello,welcome to ner's homepage</h1>
-</p>
+<!--标题-->
+<div class="page title">姜 林 乐</div>
+<!--个人信息-->
+<div>
+    <div class="page navag">个人信息<hr></div>
+    <div class="page content">
+        <div class="page detail">年龄：23</div>
+        <div class="page detail">学校：南昌大学（2013/9-2017/7）</div>
+        <div class="page detail">学历：本科</div>
+        <div class="page detail">专业：计算机科学与技术</div>
+        <div class="page detail">手机：18270884103</div>
+        <div class="page detail">邮箱：ner_jll@qq.com</div>
+    </div>
+</div>
+<!--求职意向-->
+<div>
+    <div class="page navag">求职意向<hr></div>
+    <div class="page content">
+        <div class="page detail">求职岗位：Java开发工程师</div>
+            <div class="page detail">期望薪资：8k - 10k</div>
+    </div>
+</div>
+<!--工作经历-->
+<div>
+    <div class="page navag">工作经历<hr></div>
+    <div class="page content">
+        <div>2018/05 - 至今</div>
+        <div>贵州衍昊信息科技有限公司 | 研研发部 | Java开发工程师</div>
+        <div class="page detail">工作描述：1.负责公司前期项目的系统性能优化及部分功能解耦与重构；2.负责 PC 及移动端项目的数据库设计及后端代码编写
+        和优化；3.系统日常维护及功能开发。</div>
+        <div>2016/11 - 2018/05</div>
+        <div>浙江爱旭太阳能科技有限公司 | IT 部 部 | Java开发工程师</div>
+        <div>工作描述： 实习时期担任软件开发项目经理的助理工程师，帮助项目经理整理材料和分析项目需求，转正后参与公司多个项
+        目的开发。</div>
+    </div>
+</div>
+<!--专业技能-->
+<div>
+    <div class="page navag">专业技能<hr></div>
+    <div class="page content">
+       <div class="page detail">1、熟练 java 面向对象编程，良好地规范代码编写习惯</div>
+       <div class="page detail">2、掌握 Spring、SpringMVC、Mybatis、JPA 等开源框架技术</div>
+       <div class="page detail">3、掌握 SpringBoot、SpringCloud 微服务集群等技术</div>
+       <div class="page detail">4、熟悉运用标准 SQL 语句,熟练 MySQL、SQLServer、Oracle 等数据库</div>
+       <div class="page detail">5、掌握一些前端技术，如 html、js、ajax、jquery、vue 等</div>
+       <div class="page detail">6、掌握 JUnit,Debug 进行程序调试、log4j 进行日志管理、SVN、Git、Maven 项目管理</div>
+       <div class="page detail">7、熟悉 Tomcat、Apache、nginx、redis、RabbitMq 等服务器配置</div>
+       <div class="page detail">8、掌握 IDEA、Eclipse、Hbuilder、Powerdisnger、Axure 等开发工具</div>
+    </div>
+</div>
+<!--项目经验-->
+<div>
+    <div class="page navag">项目经验<hr></div>
+    <div class="page content">
+        <div class="page detail"><b>2019/2-2019/5</b></div>
+        <div class="page detail"><b>云学通- 在线学习及考试平台</b></div>
+        <div class="page detail"><b>项目描述：</b>提供一个学生端在线学习、在线考试、成绩查询及分析等功能，教师端掌上班级及课程管理、发布考试任务、试题试卷管理、个性化统计分析等功能的平台</div>
+        <div class="page detail"><b>软件环境 ：</b>Mysql、Linux、SpringBoot 框架、Redis 插件、Vue+Echarts 等技术</div>
+        <div class="page detail2"><b>项目职责：</b>1.部分模块（班级课程管理、在线学习、在线考试、个性化分析统计等）的数据库设计及后端代码编写调试等工作；
+        2.后端页面的原型和交互设计；3.部分前端页面的编写及调试。</div>
+
+        <div class="page detail"><b>2018/9-2019/1</b></div>
+        <div class="page detail"><b>慧工作- 校园实习服务平台</b></div>
+        <div class="page detail"><b>项目描述：</b>面向中高职院校定期的学生实习安排，为带队教师提供一个以实习任务为驱动且方便管理实习生（实习岗位、签到记录、工作汇报、发布通知、异常处理反馈等功能）的服务平台</div>
+        <div class="page detail"><b>软件环境：</b>Mysql、Linux、SpringBoot+SpringCloud 框架、Redis+Rabbitmp 插件、Vue+Echarts 等技术</div>
+        <div class="page detail2"><b>项目职责：</b>实习管理、资讯及新闻管理、流程审批、通知公告、基础信息等模块的后端开发及维护工作，以及部分前端页面的
+        编写和测试。</div>
+
+        <div class="page detail"><b>2018/6-2018/9</b></div>
+        <div class="page detail"><b>校掌汇- 智慧化校园项目</b></div>
+        <div class="page detail"><b>项目描述：</b>为学校提供一个学生及教师信息管理、教务管理、OA 办公、专业及班级信息管理、学生成绩统计分析等功能的平台</div>
+        <div class="page detail"><b>软件环境：</b>Mysql 、SpringBoot+jpa 框架、Html5+Css3+Ajax+Jquery+Bootstrap 技术</div>
+        <div class="page detail2"><b>项目职责：</b>系统性能优化及部分功能的重构工作。</div>
+
+        <div class="page detail"><b>2018/1-2018/2</b></div>
+        <div class="page detail"><b>企业会议预定系统</b></div>
+        <div class="page detail"><b>项目描述：</b>为企业提供一个会议室预订及异地视频会议管理的系统</div>
+        <div class="page detail"><b>软件环境：</b>Mysql、SpringBoot+Mybatis 框架、Html5+Css3+Ajax+Jquery+Bootstrap 技术</div>
+        <div class="page detail2"><b>项目职责：</b>主要负责系统首页 UI 设计和编码， 以及会议模块的后台管理。前台使用DIV+CSS+Bootstrap+Jquery+Ajax 技术对 HTML
+        页面进行布局和美化，后台会议管理模块使用 Mybaits 技术进行数据库的简单查询、复杂查询，增删改等。</div>
+
+        <div class="page detail"><b>2017/7-2017/12</b></div>
+        <div class="page detail"><b>企业客户服务系统</b></div>
+        <div class="page detail"><b>项目描述：</b>为企业提供一个产品售后信息跟踪记录及问题分析报表系统</div>
+        <div class="page detail"><b>软件环境：</b>Mysql 、SpringBoot+Mybatis 框架、Html5+Css3+Ajax+Jquery+Bootstrap 技术</div>
+        <div class="page detail2"><b>项目职责：</b>部分前端+后端</div>
+    </div>
+</div>
 </body>
 </html>
